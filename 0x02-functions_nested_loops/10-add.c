@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- *  add - adds two integers and returns the result
- *  @a: int to be added to b
- *  @b: int to be added to a
- *  Returns: sum of a and b
+ *  add - Adds two values
+ *  @n1: The first number to be computed
+ *  @n2: The second number to be computed
+ *  Return: Integer value
  */
-int add(int a, int b)
+
+int add(int n1, int n2)
+
 {
-	int c;
 
-	c = a + b;
+	return (n1 + n2);
 
-	return (c);
 }
