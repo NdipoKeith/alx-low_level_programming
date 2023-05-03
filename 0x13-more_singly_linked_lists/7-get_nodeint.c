@@ -2,9 +2,9 @@
 /**
  * get_nodeint_at_index - should return the node at a certain index in a linked list
  * @head: first node in the linked list
- * @index: the index of the node to return
+ * @index: index of the node to return
  *
- * Return: pointer to the node we are looking for, or NULL
+ * Return: pointer to the node we're looking for, or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
